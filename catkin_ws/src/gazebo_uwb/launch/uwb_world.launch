@@ -1,0 +1,14 @@
+<launch>
+  <!-- 啟用 Gazebo，載入你的 .world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find gazebo_uwb)/worlds/uwb_range_test.world" />
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+  </include>
+
+  <!-- ✅ 可選：RViz -->
+  <!-- <node pkg="rviz" type="rviz" name="rviz" output="screen"/> -->
+
+  <!-- ✅ 可選：自定義 plugin、control node、TF broadcaster -->
+  <!-- <node pkg="your_pkg" type="your_node" name="uwb_tf" output="screen"/> -->
+</launch>

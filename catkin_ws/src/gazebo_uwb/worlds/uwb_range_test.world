@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="uwb_test_world">
+
+    <light name="sun" type="directional">
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="ground_link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>20 20</size></plane></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Anchor 1 -->
+    <include>
+      <uri>model://uwb_anchor_01</uri>
+      <name>uwb_anchor_01</name>
+      <pose>0 0 0.1 0 0 0</pose>
+    </include>
+
+    <!-- Anchor 2 -->
+    <include>
+      <uri>model://uwb_anchor_02</uri>
+      <name>uwb_anchor_02</name>
+      <pose>2 0 0.1 0 0 3.1416</pose>
+    </include>
+
+    <!-- ✅ 可移動的障礙物 -->
+    <model name="obstacle_box">
+      <pose>1 0 0.25 0 0 0</pose> <!-- 初始擋在兩個 anchor 中間 -->
+      <static>false</static> <!-- 允許拖動 -->
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box><size>0.4 0.4 0.5</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.4 0.4 0.5</size></box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient> <!-- 紅色 -->
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

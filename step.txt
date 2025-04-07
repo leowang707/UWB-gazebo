@@ -1,0 +1,3 @@
+cd ~/catkin_ws/src
+catkin_create_pkg my_uwb_pkg rospy std_msgs geometry_msgs sensor_msgs gazebo_ros
+

@@ -1,0 +1,8 @@
+prefix=/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebo_uwb
+
+Name: gazebo_uwb
+Description: Description of gazebo_uwb
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

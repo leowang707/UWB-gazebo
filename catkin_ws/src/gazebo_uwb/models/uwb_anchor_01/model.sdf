@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="uwb_anchor_01">
+    <static>true</static>
+
+    <link name="uwb_anchor_01_link">
+      <pose>0 0 0.1 0 0 0</pose>
+
+      <!-- 碰撞體 -->
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 0.2 0.2</size></box>
+        </geometry>
+      </collision>
+
+      <!-- 外觀 -->
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 0.2 0.2</size></box>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+
+    <!-- ✅ 插入自訂 UWB 掃描 Plugin -->
+    <!-- <plugin name="uwb_scan_plugin" filename="libuwb_scan_plugin.so"/> -->
+    <plugin name="uwb_scan_plugin_NLOS" filename="libuwb_scan_plugin_NLOS.so"/>
+
+
+  </model>
+</sdf>
