@@ -11,5 +11,6 @@ export CMAKE_PREFIX_PATH="/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/c
 export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
 export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/leowang707/UWB-gazebo/catkin_ws/build/catkin_tools_prebuild'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH='/home/leowang707/UWB-gazebo/catkin_ws/build/catkin_tools_prebuild:/home/leowang707/UWB-gazebo/catkin_ws/src/gazebo_uwb:/opt/ros/noetic/share'
+export ROS_PACKAGE_PATH='/home/leowang707/UWB-gazebo/catkin_ws/build/catkin_tools_prebuild:/home/leowang707/UWB-gazebo/catkin_ws/src/gazebo_uwb:/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master:/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins:/opt/ros/noetic/share'

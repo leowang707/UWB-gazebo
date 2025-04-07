@@ -1,0 +1,80 @@
+[33mWARNING: package 'gazebo_ros' is deprecated (This package has been deprecated as of January 2025 with Gazebo classic 11 reaching[0m
+      end-of-life. Users are highly encouraged to migrate to the new Gazebo
+      using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration))
+[33mWARNING: package 'gazebo_msgs' is deprecated (This package has been deprecated as of January 2025 with Gazebo classic 11 reaching[0m
+      end-of-life. Users are highly encouraged to migrate to the new Gazebo
+      using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration))
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gtec_uwb_plugin.  AUTOMOC and
+  AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target custom_skid_steer_drive.
+  AUTOMOC and AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target
+  gtec_tag_pos_publisher_plugin.  AUTOMOC and AUTOUIC disabled.  Consider
+  adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target
+  gtec_magnetic_distortion_plugin.  AUTOMOC and AUTOUIC disabled.  Consider
+  adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gmock_main.  AUTOMOC and
+  AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gmock.  AUTOMOC and AUTOUIC
+  disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gtest_main.  AUTOMOC and
+  AUTOUIC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gtest.  AUTOMOC and AUTOUIC
+  disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
