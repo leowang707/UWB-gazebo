@@ -1,0 +1,3 @@
+[submodule "catkin_ws/src/gazebosensorplugins"]
+	path = catkin_ws/src/gazebosensorplugins
+	url = git@github.com:leowang707/gazebosensorplugins.git
