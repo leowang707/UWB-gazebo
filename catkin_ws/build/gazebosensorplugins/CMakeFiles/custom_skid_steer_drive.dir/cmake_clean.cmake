@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libcustom_skid_steer_drive.pdb"
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libcustom_skid_steer_drive.so"
   "CMakeFiles/custom_skid_steer_drive.dir/src/CustomSkidSteerDrive.cpp.o"
-  "libcustom_skid_steer_drive.pdb"
-  "libcustom_skid_steer_drive.so"
 )
 
 # Per-language clean rules from dependency scanning.

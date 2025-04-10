@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_uwb_plugin.pdb"
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_uwb_plugin.so"
   "CMakeFiles/gtec_uwb_plugin.dir/src/UwbPlugin.cpp.o"
-  "libgtec_uwb_plugin.pdb"
-  "libgtec_uwb_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

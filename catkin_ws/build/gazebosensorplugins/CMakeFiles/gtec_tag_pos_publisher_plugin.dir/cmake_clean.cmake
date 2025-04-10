@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_tag_pos_publisher_plugin.pdb"
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_tag_pos_publisher_plugin.so"
   "CMakeFiles/gtec_tag_pos_publisher_plugin.dir/src/TagPosPublisherPlugin.cpp.o"
-  "libgtec_tag_pos_publisher_plugin.pdb"
-  "libgtec_tag_pos_publisher_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

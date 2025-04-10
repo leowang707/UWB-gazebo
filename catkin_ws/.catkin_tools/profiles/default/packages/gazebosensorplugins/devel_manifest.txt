@@ -2,4 +2,8 @@ gazebosensorplugins
 /home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/cmake.lock /home/leowang707/UWB-gazebo/catkin_ws/devel/./cmake.lock
 /home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig.cmake /home/leowang707/UWB-gazebo/catkin_ws/devel/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig.cmake
 /home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig-version.cmake /home/leowang707/UWB-gazebo/catkin_ws/devel/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig-version.cmake
+/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libcustom_skid_steer_drive.so /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libcustom_skid_steer_drive.so
+/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_tag_pos_publisher_plugin.so /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_tag_pos_publisher_plugin.so
+/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_uwb_plugin.so /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_uwb_plugin.so
+/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_magnetic_distortion_plugin.so /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_magnetic_distortion_plugin.so
 /home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/pkgconfig/gazebosensorplugins.pc /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/pkgconfig/gazebosensorplugins.pc

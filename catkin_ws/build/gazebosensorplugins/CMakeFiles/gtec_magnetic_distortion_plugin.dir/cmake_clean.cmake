@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_magnetic_distortion_plugin.pdb"
+  "/home/leowang707/UWB-gazebo/catkin_ws/devel/.private/gazebosensorplugins/lib/libgtec_magnetic_distortion_plugin.so"
   "CMakeFiles/gtec_magnetic_distortion_plugin.dir/src/MagneticDistortionPlugin.cpp.o"
-  "libgtec_magnetic_distortion_plugin.pdb"
-  "libgtec_magnetic_distortion_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.
