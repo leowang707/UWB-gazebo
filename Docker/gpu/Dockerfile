@@ -82,6 +82,10 @@ RUN echo "source ${HOME}/UWB-gazebo/catkin_ws/devel/setup.bash" >> /root/.bashrc
 RUN echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:${HOME}/UWB-gazebo/catkin_ws/src/gazebo_uwb/models:/usr/share/gazebo-11/models" >> /root/.bashrc && \
     echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:${HOME}/UWB-gazebo/catkin_ws/src/gazebo_uwb/models:/usr/share/gazebo-11/models" >> ${HOME}/.bashrc
 
+# 加入 gazebosensorplugins 的模型路徑至 GAZEBO_MODEL_PATH（root 與 HOME 各加一份）
+RUN echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:${HOME}/UWB-gazebo/catkin_ws/src/gazebosensorplugins/models" >> /root/.bashrc && \
+    echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:${HOME}/UWB-gazebo/catkin_ws/src/gazebosensorplugins/models" >> ${HOME}/.bashrc
+
 # 加入 GAZEBO_PLUGIN_PATH 設定（root 與 HOME 都加）
 RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:${HOME}/UWB-gazebo/catkin_ws/devel/lib" >> /root/.bashrc && \
     echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:${HOME}/UWB-gazebo/catkin_ws/devel/lib" >> ${HOME}/.bashrc
