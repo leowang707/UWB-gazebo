@@ -1,0 +1,94 @@
+[  0%] Built target gtec_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target gtec_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target gtec_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target gtec_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target gazebo_ros_gencfg
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target gtec_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target gtec_uwb_plugin[0m
+[ 75%] Built target gtec_tag_pos_publisher_plugin
+[ 75%] Built target custom_skid_steer_drive
+[ 75%] Built target gtec_magnetic_distortion_plugin
+[ 87%] [32mBuilding CXX object CMakeFiles/gtec_uwb_plugin.dir/src/UwbPlugin.cpp.o[0m
+[01m[K/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins/src/UwbPlugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::UwbPlugin::OnUpdate(const gazebo::common::UpdateInfo&)[m[K’:
+[01m[K/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins/src/UwbPlugin.cpp:895:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string obstacleName[m[K’
+  895 |                             std::string [01;31m[KobstacleName[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins/src/UwbPlugin.cpp:878:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string obstacleName[m[K’ previously declared here
+  878 |                             std::string [01;36m[KobstacleName[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins/src/UwbPlugin.cpp:899:36:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble distanceToObstacleFromTag[m[K’
+  899 |                             double [01;31m[KdistanceToObstacleFromTag[m[K = (ray1Start - tagPos).Length() + rawDistanceToObstacleFromTag;
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leowang707/UWB-gazebo/catkin_ws/src/gazebosensorplugins/src/UwbPlugin.cpp:877:36:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble distanceToObstacleFromTag[m[K’ previously declared here
+  877 |                             double [01;36m[KdistanceToObstacleFromTag[m[K;
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gtec_uwb_plugin.dir/build.make:63: CMakeFiles/gtec_uwb_plugin.dir/src/UwbPlugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/gtec_uwb_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

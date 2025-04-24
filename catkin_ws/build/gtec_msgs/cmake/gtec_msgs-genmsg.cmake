@@ -84,7 +84,7 @@ add_custom_target(_gtec_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg" NAME_WE)
 add_custom_target(_gtec_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gtec_msgs" "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg" "std_msgs/Header:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gtec_msgs" "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg" "geometry_msgs/Point:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/DoorCounterEvent.msg" NAME_WE)
@@ -184,7 +184,7 @@ _generate_msg_cpp(gtec_msgs
 _generate_msg_cpp(gtec_msgs
   "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/gtec_msgs
 )
 _generate_msg_cpp(gtec_msgs
@@ -337,7 +337,7 @@ _generate_msg_eus(gtec_msgs
 _generate_msg_eus(gtec_msgs
   "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/gtec_msgs
 )
 _generate_msg_eus(gtec_msgs
@@ -490,7 +490,7 @@ _generate_msg_lisp(gtec_msgs
 _generate_msg_lisp(gtec_msgs
   "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/gtec_msgs
 )
 _generate_msg_lisp(gtec_msgs
@@ -643,7 +643,7 @@ _generate_msg_nodejs(gtec_msgs
 _generate_msg_nodejs(gtec_msgs
   "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/gtec_msgs
 )
 _generate_msg_nodejs(gtec_msgs
@@ -796,7 +796,7 @@ _generate_msg_py(gtec_msgs
 _generate_msg_py(gtec_msgs
   "/home/leowang707/UWB-gazebo/catkin_ws/src/rosmsgs-master/msg-ros1/RadarFusedPointStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/gtec_msgs
 )
 _generate_msg_py(gtec_msgs

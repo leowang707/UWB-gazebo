@@ -1,7 +1,0 @@
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig.cmake
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/share/gazebosensorplugins/cmake/gazebosensorpluginsConfig-version.cmake
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libcustom_skid_steer_drive.so
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_tag_pos_publisher_plugin.so
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_uwb_plugin.so
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/libgtec_magnetic_distortion_plugin.so
-Symlinking /home/leowang707/UWB-gazebo/catkin_ws/devel/lib/pkgconfig/gazebosensorplugins.pc
